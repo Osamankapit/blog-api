@@ -1,0 +1,23 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "a simple blog api",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start":"node src/main.js",
+
+    "start:dev": "nodemon src/main.js"
+
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osamankapit/blog-api.git"
+  },
+  "author": "Muhammad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osamankapit/blog-api/issues"
+  },
+  "homepage": "https://github.com/osamankapit/blog-api#readme"
+}
